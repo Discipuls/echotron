@@ -1,4 +1,4 @@
-module github.com/Discipuls/echotron/v3
+module github.com/Discipuls/echotron
 
 go 1.19
 
