@@ -36,7 +36,7 @@ type API struct {
 func NewAPI(token string) API {
 	return API{
 		token:  token,
-		base:   fmt.Sprintf("https://api.telegram.org/bot%s/", token),
+		base:   fmt.Sprintf("https://api.telegram.org/bot%s/test/", token),
 		client: lclient,
 	}
 }
